@@ -1,0 +1,234 @@
+/* Menu de Navegacion */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+body > nav{
+    height: 65px;
+}
+
+body > nav > a > img{
+    height: 65px;
+}
+
+body >  nav > a > img:hover{
+    content: url(img/logo/logo-completo.png);
+}
+
+#navbarSupportedContent{
+    height: 65px;
+    background-color: #f1f1f1;
+}
+
+#navbarSupportedContent > ul > li:nth-child(6) > a{
+    color: #111111;
+}
+
+#navbarSupportedContent > ul > li:nth-child(5) > a{
+    color: #15D82F;
+}
+
+#navbarSupportedContent > ul > li:nth-child(4) > a{
+    color: #7915D8;
+}
+
+#navbarSupportedContent > ul > li:nth-child(3) > a{
+    color: #15A6D8;
+}
+
+#navbarSupportedContent > ul > li:nth-child(2) > a{
+    color: #F41313;
+}
+
+#navbarSupportedContent > ul > li:nth-child(1) > a{
+    color: #FC850F;
+}
+
+#navbarSupportedContent > ul > li > a{
+    transition: 0.5s;
+    height: 65px;
+    align-items: center;
+    display: flex;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+#navbarSupportedContent > ul > li > a:hover{
+    background-color: white;
+}
+
+#navbarSupportedContent > form{
+    justify-content: center;
+    background-color: white;
+    padding-left: 40px;
+    height: 65px;
+}
+
+#navbarSupportedContent > form > button:nth-child(1){
+    border-color: #ff6161;
+    border-radius: 50px;
+    background-color: #ff6161;
+    color: white;
+}
+#navbarSupportedContent > form > button:nth-child(2){
+    border-color: white;
+    background-color: white;
+    color: #ff6161;
+}
+
+#navbarSupportedContent > nav > form > button:nth-child(1) > i{
+    margin-right: 8px;
+}
+
+#dropdownMenuButton > img{
+    height: 20px;
+    width: 25px;
+}
+
+#dropdownMenuButton{
+    color: #ff6161;
+    background: none;
+    border: none;
+    margin-right: 20px;
+}
+
+body > nav > div.dropdown.show > div > a > img{
+    height: 20px;
+    width: 25px;
+}
+
+body > nav > div.dropdown{
+    right: 50px;
+}
+
+body > nav > div.dropdown.show > div{
+    min-width: 10px !important;
+}
+
+#navbarSupportedContent2{
+    background: #f1f1f1;
+    height: 65px;
+}
+
+/* Perfiles */
+
+body > div > div{
+    padding: 40px;
+}
+
+body > div > div > div > div{
+    transition: 0.3s;
+    box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
+}
+body > div > div > div > div:hover{
+    border: 4px solid #ff6161;
+    transform: scale(0.9);
+    box-shadow: none;
+}
+  
+#navbarSupportedContent > ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#navbarSupportedContent2 > ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+body > div > div.col-md-9{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body > div > div.col-md-9 > div > div{
+    padding: 0;
+    margin: 0;
+}
+
+body > div > div.col-md-9 > div{
+    margin-bottom: 15px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+body > div{
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+body > div > div.col-md-3 .col > img{
+    width: 100%;
+    max-height: 600px;
+}
+
+body > div > div.col-md-9 > div > div > img{
+    max-height: 160px;
+}
+
+body > div > div.col-md-9 > div > div > div > p > i{
+    color: #ff6161;
+}
+
+body > div > div.col-md-9 > div{
+    display: flex;
+    justify-content: center;
+}
+
+/* Footer */
+
+body > footer{
+    background-image: url(img/footer.png);
+}
+
+body > footer > div.container > div.row.text-center.d-flex.justify-content-center.pt-5.mb-3 > div > h6 > a{
+    color: white !important
+}
+
+body > footer > div.container > div.row.pb-3 > div > div > a > i{
+    color: white;
+}
+
+body > footer > div.container > div.row.d-flex.text-center.justify-content-center.mb-md-0.mb-3 > div > p{
+    color: white;
+}
+
+body > footer > div.footer-copyright.text-center.py-3{
+    color: white;
+}
+
+body > footer > div.footer-copyright.text-center.py-3 > a{
+    color: #fff;
+}
+
+body > footer > div.container > hr:nth-child(2){
+    border-top: 1px solid white;
+}
+
+body > footer > div.container > hr.clearfix.d-md-none.rgba-white-light{
+    border-top: 1px solid white;   
+}
+
+@media (max-width: 768px){
+    body > div > div.col-md-3{
+        display: none;
+    }
+}
+@media (max-width: 990px){
+    body > nav{
+        height: auto;
+    }
+    #navbarSupportedContent > ul{
+        flex-direction: inherit;
+    }
+    #navbarSupportedContent2 > ul{
+        flex-direction: inherit;
+    }
+
+}
+@media (min-width: 990px){
+#navbarSupportedContent{
+    justify-content: flex-end;
+}
+}
